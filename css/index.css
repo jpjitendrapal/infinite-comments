@@ -39,8 +39,11 @@ button{
     line-height: 12px;
     margin-left: 5px;
 }
+.comment{
+    padding: 5px 0;
+}
 .child-comments{
-    margin-left: 10px;
+    margin-left: 12px;
 }
 .comment-edit-save{
     margin: 0 5px;
