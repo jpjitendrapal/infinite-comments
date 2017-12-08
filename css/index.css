@@ -6,6 +6,11 @@ body, button, html, input, select, textarea {
 #main-body{
     margin: 0 20%;
 }
+@media screen and (max-width: 650px) {
+    #main-body{
+        margin: 0 5%;
+    }
+}
 button{
     cursor: pointer;
 }
@@ -24,7 +29,7 @@ button{
     padding: 5px;
 }
 .post .post-title{
-    border: 1px solid #026aa7;
+    background-color: #eee;
     padding: 10px 5px;
     font-size: 15px;
 }
