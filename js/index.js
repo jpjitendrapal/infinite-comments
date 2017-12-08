@@ -80,6 +80,7 @@ function Comment(commentText, parent) {
         return function(){
             comment.parent.commentSection.removeChild(comment.node);
             delete comment.parent.commentList[comment.id];
+            comment.parent.isNewCommentAllowed = true;
         }
     })(this);
 }
